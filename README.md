@@ -1,2 +1,2 @@
 # tfb-nandodbhava-epigraphy
-Nandobhava dynasty
+Nandodbhava dynasty
