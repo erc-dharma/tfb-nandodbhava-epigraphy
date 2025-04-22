@@ -141,7 +141,7 @@ n="38"/>
                <listApp><!-- one <app> for each apparatus entry -->
                   <app loc="line"><!-- update the value of @loc.-->
                      <lem><!-- fill in a lemma here --></lem>
-                     <rdg source="bib:"><!-- update the @source value, fill in variant reading here --></rdg>
+                     <rdg source="bib:Acharya2022_01"><!-- update the @source value, fill in variant reading here --></rdg>
                   </app>
                </listApp>
          </div>
@@ -160,7 +160,7 @@ n="38"/>
 	<!--bibliography encoded as per section §9.4 -->
            <p>Currently preserved in the Odisha State Museum, accession number 67.  </p>
         	<listBibl type="primary">
-				<bibl n="R"><ptr target="bib:"/></bibl><!-- one <bibl/> per item of primary bibliography. Every entry mentionned in apparatus  should hava a @n to declare its sigla -->
+				<bibl n="A"><ptr target="bib:Acharya2022_01"/><citedRange unit="item">VII</citedRange><citedRange unit="page">196-199</citedRange></bibl><!-- one <bibl/> per item of primary bibliography. Every entry mentionned in apparatus  should hava a @n to declare its sigla -->
 			</listBibl>
            <listBibl type="secondary">
                <bibl><ptr target="bib:Tripathy2010_01"/><citedRange unit="item">7</citedRange><citedRange unit="page">54-55</citedRange></bibl>

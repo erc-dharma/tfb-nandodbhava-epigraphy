@@ -138,7 +138,7 @@ n="35"/>
                <listApp><!-- one <app> for each apparatus entry -->
                   <app loc="line"><!-- update the value of @loc.-->
                      <lem><!-- fill in a lemma here --></lem>
-                     <rdg source="bib:"><!-- update the @source value, fill in variant reading here --></rdg>
+                     <rdg source="bib:Acharya2022_01"><!-- update the @source value, fill in variant reading here --></rdg>
                   </app>
                </listApp>
          </div>
@@ -154,7 +154,7 @@ n="35"/>
 	<!--bibliography encoded as per section §9.4 -->
            <p>According to <bibl><ptr target="bib:Acharya2014_01"/><citedRange unit="item">2</citedRange><citedRange unit="page">399-401</citedRange></bibl>, it is preserved in the Archaeological Museum, at Baripada, Mayurbhanja. But it seems that the plate is currently preserved in the Odsiha State Museum under the number 70 in the catalogue established by <bibl><ptr target="bib:Pal2018_01"/></bibl>. </p>
         	<listBibl type="primary">
-				<bibl n="R"><ptr target="bib:"/></bibl><!-- one <bibl/> per item of primary bibliography. Every entry mentionned in apparatus  should hava a @n to declare its sigla -->
+				<bibl n="A"><ptr target="bib:Acharya2022_01"/><citedRange unit="item">III</citedRange><citedRange unit="page">186-188</citedRange></bibl><!-- one <bibl/> per item of primary bibliography. Every entry mentionned in apparatus  should hava a @n to declare its sigla -->
 			</listBibl>
            <listBibl type="secondary">
                <bibl><ptr target="bib:Tripathy2010_01"/><citedRange unit="item">6</citedRange><citedRange unit="page">53-54</citedRange></bibl>

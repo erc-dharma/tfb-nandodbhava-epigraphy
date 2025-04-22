@@ -8,7 +8,7 @@
     <teiHeader>
         <fileDesc>
             <titleStmt>
-                <title>Talmul Copper Plate Charter of Devānandadeva yeqr 152</title>
+                <title>Talmul Copper Plate Charter of Devānandadeva year 152</title>
                 <!--Change the title of the file, e.g. Raktamālā grant of the time of Budhagupta, year 159-->
                 <!-- Add your name in the respStmt matching your involvement -->
                 <respStmt>
@@ -142,7 +142,7 @@ n="39"/>
                <listApp><!-- one <app> for each apparatus entry -->
                   <app loc="line"><!-- update the value of @loc.-->
                      <lem><!-- fill in a lemma here --></lem>
-                     <rdg source="bib:"><!-- update the @source value, fill in variant reading here --></rdg>
+                     <rdg source="bib:Acharya 2022_01"><!-- update the @source value, fill in variant reading here --></rdg>
                   </app>
                </listApp>
          </div>
@@ -158,7 +158,7 @@ n="39"/>
 	<!--bibliography encoded as per section §9.4 -->
            <p>Currently preserved in the Archaeological Museum, Departments of History and Ancient Indian History Culture and Archaeology, Utkal University, Bhubaneswar, see <bibl><ptr target="bib:WattelierBricout2024_01"/></bibl>. Link to the pictures <ref target="https://didomena.ehess.fr/concern/data_sets/kd17d2505">here</ref>.</p>
         	<listBibl type="primary">
-				<bibl n="R"><ptr target="bib:"/></bibl><!-- one <bibl/> per item of primary bibliography. Every entry mentionned in apparatus  should hava a @n to declare its sigla -->
+				<bibl n="A"><ptr target="bib:Acharya 2022_01"/><citedRange unit="item">I</citedRange><citedRange unit="page">180-183</citedRange></bibl><!-- one <bibl/> per item of primary bibliography. Every entry mentionned in apparatus  should hava a @n to declare its sigla -->
 			</listBibl>
            <listBibl type="secondary">
                <bibl><ptr target="bib:Tripathy2010_01"/><citedRange unit="item">5</citedRange><citedRange unit="page">51-52</citedRange></bibl>
