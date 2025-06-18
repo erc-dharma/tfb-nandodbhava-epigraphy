@@ -2,8 +2,8 @@
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_Schema.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <?xml-model href="https://raw.githubusercontent.com/erc-dharma/project-documentation/master/schema/latest/DHARMA_SQF.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<?xml-model href="http://www.stoa.org/epidoc/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://epidoc.stoa.org/schema/latest/tei-epidoc.rng" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="eng">
     <teiHeader>
         <fileDesc>
@@ -132,7 +132,15 @@ n="34"/><lb
 n="35"/><lb 
 n="36"/><lb 
 n="37"/><lb 
-n="38"/>
+n="38"/><lg met="anuṣṭubh"><!-- close to best_0080 -->
+    <l n="a"><gap extent="unknown" reason="illegible"></gap>tasyānr̥te hant<orig>ī</orig></l>
+                        <l n="b">daśa hant<orig>ī</orig> ga<lb 
+n="39" break="no"/>vānr̥te</l>
+                        <l n="c"><orig>s</orig>ata-kanyānr̥te ha<supplied reason="omitted">n</supplied>ti</l>
+                        <l n="d">sahasra<supplied reason="omitted">ṁ</supplied> puru<choice><orig>s</orig><reg>ṣ</reg></choice>ānr̥te<surplus>ḥ</surplus></l>
+</lg><lb 
+n="40"/><lb 
+n="41"/>
    
                   </p>
          </div>
@@ -150,11 +158,11 @@ n="38"/>
          </div>
          <div type="commentary">
             <!--commentary encoded as per section §9.3 -->
-             <p>Bibliographical references : DTC tripathy n3 p 136-137 Acharya 2014 n6 p404-405 rajaguru ohrj 15 1-2 1967 p 115-120 (chicago available)  </p>
-             <p>38 lines ; 20 on the obverse and 18 on the reverse. 14 verses : 9 in the introductory portion (the verses are identical to INSNandodbhava00002) and 5 customary verses at the end in lines 33-38. </p>
-             <p><bibl><ptr target="bib:Acharya2014_01"/><citedRange unit="note">59</citedRange><citedRange unit="page">405</citedRange></bibl>: "The donee probably belonged to the same family of the brahmāṇa mentioned in the Dhenkanal plate of Jayastambha also belonging to the Yajñāḍha parāśāra gotra and hailed from Hastipada. Although the relationship of the donees in the present plate is not stated, on hte basis of the Dhenkanal plate it may be conjectured that Śakrahūti was another son of Vāsuhūti and grandson of Mahindrahūti and that he was a uterine brother of Gobbarahūtiśarman." </p>
-             <p><bibl><ptr target="bib:Acharya2014_01"/><citedRange unit="note">60</citedRange><citedRange unit="page">405</citedRange></bibl>: "Sarāvakhaṇḍa also finds mention in the Narasinghpur plates of Somavaṁśī Uddyotakeśarī. it has been stated in this grant that the gift village was situated in the Sarāvakhaṇḍa attached to Airāvaṭṭamaṇḍala of Odra deśa."</p>
-             <p><bibl><ptr target="bib:Acharya2014_01"/><citedRange unit="note">61</citedRange><citedRange unit="page">405</citedRange></bibl>: "Sandhivigrahī Yaśodatta was the same Kāyastha and Sandhivigrahī Yaśodatta, the donee and writter of the Dasapalla plate of the king."</p>
+             <p>Bibliographical references : DTC Tripathy p 54-55 Acharya 2014 n 7 p 405-406 not yet published Acharya2022_01
+196-199 </p>
+            <p>41 lins : 20 on the obverse 21 on the reverse </p>
+             <p><bibl><ptr target="bib:Acharya2014_01"/><citedRange unit="note">62</citedRange><citedRange unit="page">405</citedRange></bibl>: "It appears that the record is a palimpsest. The engravings after line 12 to the end probably contained another inscription which has been beaten in and the present inscription was written. The abrupt end of the verse 5 after Devānandadeva ine line 12 and the post-script in lines 40-41 recording the grant of another locality further raises doubt about its guenuineness. Very likely the donees or their relatives and offsprings forged this document durein or after the reign of Devānandadeva II alias Vilāsatuṅga." According to <bibl><ptr target="bib:Acharya2014_01"/><citedRange unit="note">62</citedRange><citedRange unit="page">405</citedRange></bibl>, the inscription contains 14 verses : 5 verses in the introductory portion (lines 2-12 already known from other charters of the king). The fifth verse is incomplete and it ends abruptly after referring to Devānanda the son of Śivānanda. There are more than 10 customary verses at the end of the record quoted frim the Dharmaśāstra lines 22-39: ten are legible and the rest are not readable</p>
+             <p>In the description of the plate in <bibl><ptr target="bib:Acharya2022_01"/><citedRange unit="item">VII</citedRange><citedRange unit="page">196-199</citedRange></bibl>, surprisingly, there is no further mention of the possibility that this copper plate is a palimpsest or forgery </p>
          </div>
         <div type="bibliography">
 	<!--bibliography encoded as per section §9.4 -->
